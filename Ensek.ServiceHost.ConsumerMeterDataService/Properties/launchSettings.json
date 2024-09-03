@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Ensek.ServiceHost.ConsumerMeterDataService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "environment": "local",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

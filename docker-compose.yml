@@ -1,0 +1,6 @@
+﻿services:
+  ensek.servicehost.consumermeterdataservice:
+    image: ensek.servicehost.consumermeterdataservice
+    build:
+      context: .
+      dockerfile: Ensek.ServiceHost.ConsumerMeterDataService/Dockerfile
