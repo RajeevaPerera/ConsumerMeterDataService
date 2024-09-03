@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ensek.Models.ConsumerMeterDataService.Internal/1.0.0": {
+        "runtime": {
+          "Ensek.Models.ConsumerMeterDataService.Internal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ensek.Models.ConsumerMeterDataService.Internal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

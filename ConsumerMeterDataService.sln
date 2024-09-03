@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2352C6EC-D6E5-4963-AFA1-828C21EAD699}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{33BD0F5A-AC4C-4EEE-A3D5-17CF34E9BC69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{71F7AD47-C55C-44CF-8EDF-E7EEA9645470}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{93E95BBD-C91A-4BBF-9660-1F7819A1FF10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{16E7B79C-9122-4EAB-9BDE-4DFDC95F2B6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{E77BDA6A-1C8E-4836-A482-A89CA4F7431E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceHost", "ServiceHost", "{4B9F5B4B-8154-4387-AF61-8915487F570B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postman", "Postman", "{C3EB15D3-CC19-4894-A2C8-C5C97CF8E144}"
+	ProjectSection(SolutionItems) = preProject
+		Ensek.ConsumerMeterData.Service.postman_collection.json = Ensek.ConsumerMeterData.Service.postman_collection.json
+		Consumer.MeterData.Service.local.postman_environment.json = Consumer.MeterData.Service.local.postman_environment.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensek.ServiceHost.ConsumerMeterDataService", "Ensek.ServiceHost.ConsumerMeterDataService\Ensek.ServiceHost.ConsumerMeterDataService.csproj", "{36D73FA5-D634-43C4-9516-9B4F1C9437E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensek.Controllers.ConsumerMeterDataService", "Ensek.Controllers.ConsumerMeterDataService\Ensek.Controllers.ConsumerMeterDataService.csproj", "{7EA66F8A-DB8D-4396-98C4-FC69BD25B9F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensek.BusinessLayer.ConsumerMeterDataService", "Ensek.BusinessLayer.ConsumerMeterDataService\Ensek.BusinessLayer.ConsumerMeterDataService.csproj", "{19659C63-914C-4EBC-9DE4-6453F8529BD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{A7032AE9-DF4E-44C3-A89A-886B3B0AB692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensek.DataLayer.ConsumerMeterDataService", "Ensek.DataLayer.ConsumerMeterDataService\Ensek.DataLayer.ConsumerMeterDataService.csproj", "{38B1FD4E-0D33-4D03-980C-80DDDEE2F7BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensek.Models.ConsumerMeterDataService.External", "Ensek.Models.ConsumerMeterDataService.External\Ensek.Models.ConsumerMeterDataService.External.csproj", "{C2C3171A-8FCD-4642-8843-5B8444F49A5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensek.Models.ConsumerMeterDataService.Entities", "Ensek.Models.ConsumerMeterDataService.Entities\Ensek.Models.ConsumerMeterDataService.Entities.csproj", "{3003ADC9-E031-4C63-B746-72CD809D58DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensek.Models.ConsumerMeterDataService.Internal", "Ensek.Models.ConsumerMeterDataService.Internal\Ensek.Models.ConsumerMeterDataService.Internal.csproj", "{F0AB7181-8629-4D2E-B8B4-182620B2FFF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensek.UnitTest.ConsumerMeterDataService", "Ensek.UnitTest.ConsumerMeterDataService\Ensek.UnitTest.ConsumerMeterDataService.csproj", "{64C76C90-E7A7-4854-8B99-D49909741496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensek.IntegrationTest.ConsumerMeterDataService", "Ensek.IntegrationTest.ConsumerMeterDataService\Ensek.IntegrationTest.ConsumerMeterDataService.csproj", "{E040422B-8468-42C8-98D3-4614CB709490}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36D73FA5-D634-43C4-9516-9B4F1C9437E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D73FA5-D634-43C4-9516-9B4F1C9437E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D73FA5-D634-43C4-9516-9B4F1C9437E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D73FA5-D634-43C4-9516-9B4F1C9437E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA66F8A-DB8D-4396-98C4-FC69BD25B9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA66F8A-DB8D-4396-98C4-FC69BD25B9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA66F8A-DB8D-4396-98C4-FC69BD25B9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA66F8A-DB8D-4396-98C4-FC69BD25B9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19659C63-914C-4EBC-9DE4-6453F8529BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19659C63-914C-4EBC-9DE4-6453F8529BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19659C63-914C-4EBC-9DE4-6453F8529BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19659C63-914C-4EBC-9DE4-6453F8529BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B1FD4E-0D33-4D03-980C-80DDDEE2F7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B1FD4E-0D33-4D03-980C-80DDDEE2F7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B1FD4E-0D33-4D03-980C-80DDDEE2F7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B1FD4E-0D33-4D03-980C-80DDDEE2F7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C3171A-8FCD-4642-8843-5B8444F49A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C3171A-8FCD-4642-8843-5B8444F49A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C3171A-8FCD-4642-8843-5B8444F49A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C3171A-8FCD-4642-8843-5B8444F49A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3003ADC9-E031-4C63-B746-72CD809D58DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3003ADC9-E031-4C63-B746-72CD809D58DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3003ADC9-E031-4C63-B746-72CD809D58DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3003ADC9-E031-4C63-B746-72CD809D58DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0AB7181-8629-4D2E-B8B4-182620B2FFF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0AB7181-8629-4D2E-B8B4-182620B2FFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0AB7181-8629-4D2E-B8B4-182620B2FFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0AB7181-8629-4D2E-B8B4-182620B2FFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C76C90-E7A7-4854-8B99-D49909741496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C76C90-E7A7-4854-8B99-D49909741496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C76C90-E7A7-4854-8B99-D49909741496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C76C90-E7A7-4854-8B99-D49909741496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E040422B-8468-42C8-98D3-4614CB709490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E040422B-8468-42C8-98D3-4614CB709490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E040422B-8468-42C8-98D3-4614CB709490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E040422B-8468-42C8-98D3-4614CB709490}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93E95BBD-C91A-4BBF-9660-1F7819A1FF10} = {33BD0F5A-AC4C-4EEE-A3D5-17CF34E9BC69}
+		{16E7B79C-9122-4EAB-9BDE-4DFDC95F2B6C} = {33BD0F5A-AC4C-4EEE-A3D5-17CF34E9BC69}
+		{E77BDA6A-1C8E-4836-A482-A89CA4F7431E} = {33BD0F5A-AC4C-4EEE-A3D5-17CF34E9BC69}
+		{4B9F5B4B-8154-4387-AF61-8915487F570B} = {33BD0F5A-AC4C-4EEE-A3D5-17CF34E9BC69}
+		{36D73FA5-D634-43C4-9516-9B4F1C9437E1} = {4B9F5B4B-8154-4387-AF61-8915487F570B}
+		{7EA66F8A-DB8D-4396-98C4-FC69BD25B9F6} = {16E7B79C-9122-4EAB-9BDE-4DFDC95F2B6C}
+		{19659C63-914C-4EBC-9DE4-6453F8529BD0} = {93E95BBD-C91A-4BBF-9660-1F7819A1FF10}
+		{A7032AE9-DF4E-44C3-A89A-886B3B0AB692} = {33BD0F5A-AC4C-4EEE-A3D5-17CF34E9BC69}
+		{38B1FD4E-0D33-4D03-980C-80DDDEE2F7BD} = {A7032AE9-DF4E-44C3-A89A-886B3B0AB692}
+		{C2C3171A-8FCD-4642-8843-5B8444F49A5D} = {E77BDA6A-1C8E-4836-A482-A89CA4F7431E}
+		{3003ADC9-E031-4C63-B746-72CD809D58DA} = {E77BDA6A-1C8E-4836-A482-A89CA4F7431E}
+		{F0AB7181-8629-4D2E-B8B4-182620B2FFF8} = {E77BDA6A-1C8E-4836-A482-A89CA4F7431E}
+		{64C76C90-E7A7-4854-8B99-D49909741496} = {71F7AD47-C55C-44CF-8EDF-E7EEA9645470}
+		{E040422B-8468-42C8-98D3-4614CB709490} = {71F7AD47-C55C-44CF-8EDF-E7EEA9645470}
+	EndGlobalSection
+EndGlobal
