@@ -6,7 +6,7 @@ The Posman collection for testing
 
 ## Things To Note
 
-* The solution structure does not reflect on the physical folder structure, hence screenshot attached to reflect ideal structure I would like to have in physical folder/file structure.
+* The solution structure does not reflect on the physical folder structure, hence screenshot attached to reflect ideal structure I would like to have in physical folder/file structure or depend on what company follows.
 ![img.png](img.png)
 * With the time constrain I wasn't able to get the EF CORE for SQLLite up and running, and keep complaining for some reason therefore couldn't get db up and running for the solution.
 * Given more time I would like to add more unit tests for all the classes at least to 80% code coverage in solution, however, I was ONLY managed to add little unit test.
